@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(196, 193, 193);
+}
+
+#name {
+    font: normal 28pt Monospace;
+}
+
+h1 {
+    font: normal 20pt Monospace; 
+}
+
+section {
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px;
+    height: 190px;
+    width: 800px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+
+#data {
+    font: normal 12pt Monospace;
+}
+
+#data1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: gray;
+}
+
+#data2 {
+    text-align: left;
+    margin-top: -58px;
+    margin-left: 175px;
+}
+
+#data3 {
+    text-align: left;
+    margin-top: -56px;
+    margin-left: 380px;
+    color: gray;
+}
+
+#data4 {
+    text-align: left;
+    margin-top: -56px;
+    margin-left: 470px;
+}
+
+#center_section {
+    background-color: rgb(196, 193, 193);
+    box-shadow: 0px 0px 0px;
+    height: 180px;
+    margin-top: 25px;
+}
+
+#education_section {
+    width: 250px;
+    height: 180px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+#education {
+    text-align: center;
+    font: normal 12pt Monospace;
+}
+
+#education2 {
+    color: gray;
+}
+
+#programming_section {
+    width: 270px;
+    height: 180px;
+    margin-top: -182px;
+}
+
+#programming {
+    font: normal 12pt Monospace;
+}
+
+#programming1 {
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#programming2 {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -58px;
+}
+
+#language_section {
+    width: 250px;
+    height: 180px;
+    margin-top: -182px;
+    margin-right: 0px;
+}
+
+#language {
+    text-align: center;
+    font: normal 12pt Monospace;
+}
+
+#language1 {
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#language2 {
+    text-align: left;
+    margin-top: -76px;
+    margin-left: 140px;
+}
+
+#experience_section {
+    height: 940px;
+}
+
+#experience {
+    font: normal 12pt Monospace;
+    padding: 10px;
+}
+
+.experience_company {
+    font-size: 16pt;
+}
+
+.experience_date {
+    color: gray;
+}
+
+.experience_activities {
+    color: gray;
+    padding: 20px;
+}
