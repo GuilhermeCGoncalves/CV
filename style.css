@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(196, 193, 193);
+}
+
+#name {
+    font: normal 28pt Monospace;
+}
+
+h1 {
+    font: normal 20pt Monospace; 
+}
+
+section {
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px;
+    height: 190px;
+    width: 800px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+
+#data {
+    font: normal 12pt Monospace;
+}
+
+#data1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: gray;
+}
+
+#data2 {
+    text-align: left;
+    margin-top: -57px;
+    margin-left: 175px;
+}
+
+#data3 {
+    text-align: left;
+    margin-top: -56px;
+    margin-left: 380px;
+    color: gray;
+}
+
+#data4 {
+    text-align: left;
+    margin-top: -56px;
+    margin-left: 470px;
+}
+
+#data_mobile {
+    display: none;
+}
+
+.data_gray {
+    color: gray;
+}
+
+#center_section {
+    background-color: rgb(196, 193, 193);
+    box-shadow: 0px 0px 0px;
+    height: 240px;
+    margin-top: 25px;
+}
+
+#education_section {
+    width: 250px;
+    height: 240px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+#education {
+    text-align: center;
+    font: normal 12pt Monospace;
+}
+
+#education2 {
+    color: gray;
+}
+
+#education4 {
+    color: gray;
+}
+
+#programming_section {
+    width: 270px;
+    height: 240px;
+    margin-top: -242px;
+}
+
+#programming {
+    font: normal 12pt Monospace;
+}
+
+#programming1 {
+    color: gray;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#programming2 {
+    text-align: left;
+    margin-left: 110px;
+    margin-top: -95px;
+}
+
+#language_section {
+    width: 250px;
+    height: 240px;
+    margin-top: -242px;
+    margin-right: 0px;
+}
+
+#language {
+    text-align: center;
+    font: normal 12pt Monospace;
+}
+
+#language1 {
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#language2 {
+    text-align: left;
+    margin-top: -133px;
+    margin-left: 140px;
+}
+
+#experience_section {
+    height: 940px;
+}
+
+#experience {
+    font: normal 12pt Monospace;
+    padding: 10px;
+}
+
+.experience_company {
+    font-size: 16pt;
+}
+
+.experience_date {
+    color: gray;
+}
+
+.experience_activities {
+    color: gray;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    section#data {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1#name {
+        font: normal 22pt Monospace;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div#data1 {
+        display: none;
+    }
+
+    div#data2 {
+        display: none;
+    }
+
+    div#data3 {
+        display: none; 
+    }
+
+    div#data4 {
+        display: none; 
+    }        
+
+    div#data_mobile {
+        display: inline;
+    }
+
+    section#center_section {
+        height: 760px;
+    }
+
+    section#education_section {
+        width: 100%;
+    }
+
+    section#programming_section {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    div#programming1 {
+        margin-left: 15%;
+    }
+
+    div#programming2 {
+        margin-left: 50%;
+    }
+
+    section#language_section {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    div#language1 {
+        margin-left: 10%;
+    }
+
+    div#language2 {
+        margin-left: 65%;
+    }
+
+    section#experience_section {
+        height: 100%;
+    }
+
+}
